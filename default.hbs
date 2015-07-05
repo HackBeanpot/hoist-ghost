@@ -21,14 +21,14 @@
     <sidebar>
         <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo"/></a>
 
-        
+
         {{!-- <div>
             <h4>Recomended Notes</h4>
             {{#foreach all}}
                 {{this}}
             {{/foreach}}
         </div> --}}
-        
+
         {{!-- <div>
             <h4>Topics</h4>
             <a href="/tag/design/">Design</a>
@@ -42,7 +42,7 @@
             <a href="{{@blog.url}}/rss">RSS <i class="fa fa-rss"></i></a>
             <a href="#" id="showEmail" >Join our email newsletter <i class="fa fa-envelope-o"></i></a>
 
-               
+
                         <form action="#" method="post"> <!-- Your createsend link here -->
                             <div class="input-group">
                                 <input class="form-control" input="" id="fieldEmail" name="cm-ngby-ngby" type="email" required="" placeholder="Email Address">  <!-- You may need to change the name attribute -->
@@ -51,32 +51,27 @@
                                 </div>
                             </div>
                         </form>
-                      
+
         </div>
-        
+
 
     </sidebar>
 
     <main>
-        <!-- Everything else gets inserted here-->
-        {{{body}}}
-        <header class="copyright">
-            <div>All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</div>
-        </header>
-    </main> 
-
-
-
-
-
-
-
-
+      <!-- Everything else gets inserted here-->
+      {{{body}}}
+      <header class="copyright">
+        <div>
+          The HackBeanpot Blog is licensed to the public under a
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons BY-NC-SA 4.0 license</a>
+        </div>
+      </header>
+    </main>
     {{ghost_foot}}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
-   
+
     <!--Google Analytics-->
     <script>
         // Tracking Code Here
