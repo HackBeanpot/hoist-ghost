@@ -1,4 +1,4 @@
-/* 
+/*
 
 Hoist Notes theme, created by Eliot Slevin at Hoist.io
 
@@ -9,7 +9,7 @@ Hoist Notes theme, created by Eliot Slevin at Hoist.io
 5 -	Sidebar content styling
 6 -	Page header structure and styling
 7 -	Post list styling
-8 -	Footer 
+8 -	Footer
 
 */
 /*============================================================
@@ -145,7 +145,8 @@ sidebar img {
   margin-right: auto;
   display: block;
   margin-top: 100px;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  max-width: 100%; }
 sidebar div {
   box-sizing: border-box;
   padding-left: 3.75rem;
@@ -275,7 +276,7 @@ article.post {
   color: rgba(0, 0, 0, 0.5); }
 
 /*============================================================
-8	Footer 
+8	Footer
 ============================================================*/
 nav {
   padding-bottom: 3.75rem;

@@ -1,4 +1,4 @@
-/* 
+/*
 
 Hoist Notes theme, created by Eliot Slevin at Hoist.io
 
@@ -9,7 +9,7 @@ Hoist Notes theme, created by Eliot Slevin at Hoist.io
 5 -	Sidebar content styling
 6 -	Page header structure and styling
 7 -	Post list styling
-8 -	Footer 
+8 -	Footer
 
 */
 
@@ -22,7 +22,7 @@ $background-grey: #f2f2f2;
 $accent: rgba(255,0,0,0.5);
 $title-color: #2b93d8;
 $text-black: #333333;
- 
+
 
 @mixin transition{
   -webkit-transition: all 0.3s ease;
@@ -74,12 +74,12 @@ main{
 3	Compressed sidebar layout
 ============================================================*/
 @media screen and (max-width: 1000px) {
-    sidebar{ 
-    	width: 300px; 
+    sidebar{
+    	width: 300px;
 
     	div{
     		padding-left: 2rem !important;
-    		padding-right: 2rem !important; 
+    		padding-right: 2rem !important;
     	}
 
     	form div{
@@ -215,6 +215,7 @@ sidebar{
 		display: block;
 		margin-top: 100px;
 		margin-bottom: 100px;
+    max-width: 100%;
 	}
 
 	div{
@@ -321,7 +322,7 @@ header{
 		text-decoration: none;
 	}
 
-	
+
 	#seperator{
 		padding-left: 20px;
 		padding-right: 20px;
@@ -399,11 +400,11 @@ article.post{
 
 
 /*============================================================
-8	Footer 
+8	Footer
 ============================================================*/
 
 
-// Pagination 
+// Pagination
 nav{
 	padding-bottom: 3.75rem;
 
@@ -582,8 +583,8 @@ nav{
 ============================================================*/
 
 @media screen and (max-width: 800px) {
-    sidebar{ 
-    	width: 100%; 
+    sidebar{
+    	width: 100%;
     	display: block;
     	float: left;
     	position: static;
@@ -619,14 +620,3 @@ nav{
 		display: none;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
