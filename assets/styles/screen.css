@@ -5,18 +5,18 @@ Hoist Notes theme, created by Eliot Slevin at Hoist.io
 1 - Colors and Mixins
 2 - Basic Layout
 3 - Compressed Sidebar and layout
-4 -	Article Typography and Elements
-5 -	Sidebar content styling
-6 -	Page header structure and styling
-7 -	Post list styling
-8 -	Footer
+4 - Article Typography and Elements
+5 - Sidebar content styling
+6 - Page header structure and styling
+7 - Post list styling
+8 - Footer
 
 */
 /*============================================================
-1	Colors and Mixins
+1    Colors and Mixins
 ============================================================*/
 /*============================================================
-2	Basic Layout
+2  Basic Layout
 ============================================================*/
 html {
   background-color: #f2f2f2;
@@ -44,7 +44,7 @@ main {
       /*margin-left: 400px;*/ } }
 
 /*============================================================
-3	Compressed sidebar layout
+3    Compressed sidebar layout
 ============================================================*/
 @media screen and (max-width: 1000px) {
   sidebar {
@@ -70,20 +70,20 @@ main {
     margin-right: -2rem !important;
     width: calc(100% + 2rem + 2rem) !important; } }
 /*============================================================
-4	Article Typography and Elements
+4    Article Typography and Elements
 ============================================================*/
 h1, h2, h3, h4 {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #2b93d8; }
 
 h1 {
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 400;
   margin-top: 3.75rem;
   margin-bottom: 3.75rem; }
 
 p, ul, ol, li, blockquote {
-  font-family: "expo-serif-pro", serif;
+  font-family: "Lora", serif;
   color: #333333; }
 
 li {
@@ -97,7 +97,7 @@ p {
   color: #333333;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px; }
 
 blockquote {
@@ -138,7 +138,7 @@ a:hover {
     display: block; }
 
 /*============================================================
-5	Sidebar content styling
+5    Sidebar content styling
 ============================================================*/
 sidebar img {
   margin-left: auto;
@@ -160,11 +160,10 @@ sidebar div {
     padding-bottom: 10px;
     margin-bottom: 10px;
     margin-top: 0px;
-    font-weight: 600;
     color: rgba(255, 0, 0, 0.5);
     font-size: 18px; }
   sidebar div a {
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #333333;
     text-decoration: none;
     padding: 8px;
@@ -183,7 +182,7 @@ sidebar .input-group {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   sidebar .input-group input {
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 13px;
     border-style: none;
     padding: 12px;
@@ -194,7 +193,7 @@ sidebar .input-group {
   sidebar .input-group button {
     border-style: none;
     background-color: #2b93d8;
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 13px;
     color: white;
     padding: 12px;
@@ -204,7 +203,7 @@ sidebar .input-group {
     padding: 0px; }
 
 /*============================================================
-6	Page header structure and styling
+6    Page header structure and styling
 ============================================================*/
 header {
   background-color: #f2f2f2;
@@ -212,7 +211,7 @@ header {
   margin-right: -3.75rem;
   margin-bottom: 3.75rem; }
   header span {
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     color: #666666;
@@ -231,7 +230,7 @@ header {
     text-align: center;
     line-height: 140px;
     font-size: 40px;
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #333333; }
 
 .author-header {
@@ -252,10 +251,10 @@ header {
     margin-right: auto; }
     .author-header p strong {
       font-size: 40px;
-      font-family: "proxima-nova", sans-serif; }
+      font-family: "Montserrat", sans-serif; }
 
 /*============================================================
-7	Post list styling
+7    Post list styling
 ============================================================*/
 .profileimage {
   width: 24px;
@@ -272,15 +271,15 @@ article.post {
   display: block;
   width: 100%;
   text-align: left;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgba(0, 0, 0, 0.5); }
 
 /*============================================================
-8	Footer
+8    Footer
 ============================================================*/
 nav {
   padding-bottom: 3.75rem;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   text-decoration: none;
@@ -302,7 +301,7 @@ nav {
 .copyright div {
   padding-bottom: 20px;
   line-height: 40px;
-  font-family: "expo-serif-pro", serif;
+  font-family: "Lora", serif;
   font-size: 13px;
   opacity: 0.5;
   text-align: center;
@@ -325,7 +324,7 @@ nav {
   .author p {
     float: right;
     width: calc(100% - 70px - 2rem);
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px; }
     .author p strong {
       margin-bottom: 10px;
@@ -376,7 +375,7 @@ nav {
     background-color: #333333;
     overflow: hidden; }
     .color-blocks .sign-up .input-group input {
-      font-family: "proxima-nova", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 13px;
       border-style: none;
       padding: 12px;
@@ -387,7 +386,7 @@ nav {
     .color-blocks .sign-up .input-group button {
       border-style: none;
       background-color: #2b93d8;
-      font-family: "proxima-nova", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 13px;
       color: white;
       padding: 12px;
@@ -396,11 +395,11 @@ nav {
 
 .full-post {
   border-bottom: 0px !important;
-  margin-bottom: 0px	!important;
-  padding-bottom: 0px	!important; }
+  margin-bottom: 0px  !important;
+  padding-bottom: 0px  !important; }
 
 /*============================================================
-9	Mobile Responsive Styles
+9    Mobile Responsive Styles
 ============================================================*/
 @media screen and (max-width: 800px) {
   sidebar {
