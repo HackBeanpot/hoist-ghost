@@ -74,7 +74,7 @@ main {
 ============================================================*/
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
-  color: #2b93d8; }
+  color: #3943B7; }
 
 h1 {
   font-size: 40px;
@@ -102,7 +102,7 @@ p {
 
 blockquote {
   margin: 0px;
-  border-left: 3px solid #2b93d8;
+  border-left: 3px solid #3943B7;
   padding-left: 25px;
   margin-top: 2rem;
   margin-bottom: 2rem; }
@@ -117,7 +117,7 @@ hr {
   background-color: #f2f2f2; }
 
 a {
-  color: #2b93d8;
+  color: #3943B7;
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -156,11 +156,11 @@ sidebar div {
     display: block;
     width: 100%; }
   sidebar div h4 {
-    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+    border-bottom: 1px solid #02C3C8;
     padding-bottom: 10px;
     margin-bottom: 10px;
     margin-top: 0px;
-    color: rgba(255, 0, 0, 0.5);
+    color: #02C3C8;
     font-size: 18px; }
   sidebar div a {
     font-family: "Montserrat", sans-serif;
@@ -170,7 +170,7 @@ sidebar div {
     margin-left: -8px; }
   sidebar div a:hover {
     background-color: white;
-    color: rgba(255, 0, 0, 0.5); }
+    color: #02C3C8; }
 sidebar .show {
   opacity: 1 !important; }
 sidebar .input-group {
@@ -192,7 +192,7 @@ sidebar .input-group {
     width: calc(100% - 100px); }
   sidebar .input-group button {
     border-style: none;
-    background-color: #2b93d8;
+    background-color: #3943B7;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     color: white;
@@ -217,7 +217,7 @@ header {
     color: #666666;
     letter-spacing: 1px; }
   header a {
-    color: #2b93d8;
+    color: #3943B7;
     font-weight: 600;
     line-height: 60px;
     text-decoration: none; }
@@ -360,7 +360,7 @@ nav {
   .color-blocks .twitter {
     width: 40%;
     height: 100%;
-    background-color: #2b93d8;
+    background-color: #3943B7;
     float: left;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -385,7 +385,7 @@ nav {
       width: calc(100% - 100px); }
     .color-blocks .sign-up .input-group button {
       border-style: none;
-      background-color: #2b93d8;
+      background-color: #3943B7;
       font-family: "Montserrat", sans-serif;
       font-size: 13px;
       color: white;
