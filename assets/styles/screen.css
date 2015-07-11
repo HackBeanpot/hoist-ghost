@@ -76,9 +76,13 @@ h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
   color: #3943B7; }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: .18em; }
+
 h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 3.75rem;
   margin-bottom: 3.75rem; }
 
@@ -161,7 +165,8 @@ sidebar div {
     margin-bottom: 10px;
     margin-top: 0px;
     color: #02C3C8;
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: 400; }
   sidebar div a {
     font-family: "Montserrat", sans-serif;
     color: #333333;

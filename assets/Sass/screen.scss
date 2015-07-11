@@ -33,7 +33,6 @@ $text-black: #333333;
 
 
 
-
 /*============================================================
 2  Basic Layout
 ============================================================*/
@@ -113,9 +112,14 @@ h1, h2, h3, h4{
   color: $title-color;
 }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: .18em;
+}
+
 h1{
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 3.75rem;
   margin-bottom: 3.75rem;
 }
@@ -220,6 +224,7 @@ sidebar{
       margin-top: 0px;
       color: $accent;
       font-size: 18px;
+      font-weight: 400;
     }
 
     a{
