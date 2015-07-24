@@ -318,6 +318,7 @@ nav {
 
 .author {
   border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
   overflow: hidden; }
   .author img.profileimage {
     height: 70px;
@@ -334,6 +335,9 @@ nav {
     .author p strong {
       margin-bottom: 10px;
       display: inline-block; }
+
+#disqus_thread {
+  margin: 8px auto; }
 
 .color-blocks {
   width: calc(100% + 3.75rem + 3.75rem);
