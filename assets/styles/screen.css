@@ -2,14 +2,16 @@
 
 Hoist Notes theme, created by Eliot Slevin at Hoist.io
 
-1 - Colors and Mixins
-2 - Basic Layout
-3 - Compressed Sidebar and layout
-4 - Article Typography and Elements
-5 - Sidebar content styling
-6 - Page header structure and styling
-7 - Post list styling
-8 - Footer
+ 1 - Colors and Mixins
+ 2 - Basic Layout
+ 3 - Compressed Sidebar and layout
+ 4 - Article Typography and Elements
+ 5 - Sidebar content styling
+ 6 - Page header structure and styling
+ 7 - Post list styling
+ 8 - Footer
+ 9 - Mobile Responsive Styles
+10 - Accessability
 
 */
 /*============================================================
@@ -336,71 +338,22 @@ nav {
       margin-bottom: 10px;
       display: inline-block; }
 
-#disqus_thread {
-  margin: 8px auto; }
-
-.color-blocks {
-  width: calc(100% + 3.75rem + 3.75rem);
-  margin-left: -3.75rem;
-  margin-right: -3.75rem;
-  overflow: hidden;
-  height: 200px; }
-  .color-blocks .hidden {
-    display: none; }
-  .color-blocks .twitter, .color-blocks .sign-up {
-    box-sizing: border-box;
-    padding: 3rem; }
-  .color-blocks h4 {
-    color: white !important;
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 0px;
-    margin-bottom: 2rem; }
-  .color-blocks i {
-    color: white;
-    display: block;
-    text-align: center;
-    width: 100%;
-    font-size: 40px;
-    margin-bottom: 3rem; }
-  .color-blocks a h4 {
-    width: 100%;
-    text-align: center; }
-  .color-blocks .twitter {
-    width: 40%;
-    height: 100%;
-    background-color: #3943B7;
-    float: left;
+.social {
+  margin: 2rem auto;
+  text-align: center; }
+  .social a {
+    font-size: 50px;
+    color: #575c99;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    .color-blocks .twitter:hover {
-      background-color: #13bca4; }
-    .color-blocks .twitter a:hover {
+    .social a:hover {
+      color: #1DACD6;
       text-decoration: none; }
-  .color-blocks .sign-up {
-    height: 100%;
-    background-color: #333333;
-    overflow: hidden; }
-    .color-blocks .sign-up .input-group input {
-      font-family: "Montserrat", sans-serif;
-      font-size: 13px;
-      border-style: none;
-      padding: 12px;
-      border-top-left-radius: 5px;
-      border-bottom-left-radius: 5px;
-      float: left;
-      width: calc(100% - 100px); }
-    .color-blocks .sign-up .input-group button {
-      border-style: none;
-      background-color: #3943B7;
-      font-family: "Montserrat", sans-serif;
-      font-size: 13px;
-      color: white;
-      padding: 12px;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px; }
+
+#disqus_thread {
+  margin: 8px auto; }
 
 .full-post {
   border-bottom: 0px !important;
@@ -438,5 +391,18 @@ nav {
 
   .pagination span {
     display: none; } }
+/*============================================================
+10   Accessability
+============================================================*/
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden; }
 
 /*# sourceMappingURL=screen.css.map */
