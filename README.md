@@ -9,11 +9,11 @@ a fork of the [Hoist Ghost Theme](https://github.com/hoist/hoist-ghost).
 ## Getting started
 
 Either clone this repo, or download it as a zip. Drop the whole folder into your
-ghost installation, inside /content/themes. Then login to Ghost, and change your
-theme to hoist-ghost.
+ghost installation, inside `/content/themes`. Then login to Ghost, and change
+your theme to hoist-ghost.
 
-All the css is generated in `assets/Sass/screen.scss`. If you want to compile the
-scss run the [gulpfile](http://gulpjs.com/).
+All the CSS is generated in `assets/Sass/screen.scss`. If you want to compile
+the SCSS run the [gulpfile](http://gulpjs.com/).
 
 ###Things to Configure
 
@@ -22,21 +22,13 @@ personally use [Campaign Monitor](https://www.campaignmonitor.com/), but it can
 be configured to use whatever you want. The two places you'll want to configure
 are found in post.hbs and default.hbs.
 
-You'll also need to bring your own [Typekit](https://typekit.com/) account. The
-fonts we use are [Expo Serif Pro](https://typekit.com/fonts/expo-serif-pro), and
-[Proxima Nova](https://typekit.com/fonts/proxima-nova). Add your embed code in
-default.hbs, in the head. Alternativly, you could edit the css to use free
-fonts.
-
-We use google analytics to monitor our blog, add your tracking code to
-default.hbs, in the script tag just before the closing body tag.
-
 If you want to edit the sidebar, for example adding tag links or a description,
-look inside default.hbs, in the sidebar element.
+look inside `default.hbs`, in the sidebar element.
 
 ###Using theme elements
 
-Too add a "discuss this article on twitter" call to action in the footer, simply add
+To add a "discuss this article on twitter" call to action in the footer, simply
+add
 
     <div id="twitter" data-link="https://twitter.com/hoistapps/status/557665010806452225"></div>
 
@@ -65,7 +57,7 @@ twitter.
 
 ## Copyright & License
 
-Copyright (C) 2014 Ghost Foundation - Released under the MIT License.
+Copyright (C) 2015 HackBeanpot, Inc. - Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
