@@ -11,7 +11,7 @@ Hoist Notes theme, created by Eliot Slevin at Hoist.io
  7 - Post list styling
  8 - Footer
  9 - Mobile Responsive Styles
-10 - Accessability
+10 - Accessibility
 
 */
 /*============================================================
@@ -80,7 +80,7 @@ h1, h2, h3, h4 {
 
 h1, h2, h3 {
   text-transform: uppercase;
-  letter-spacing: .18em; }
+  letter-spacing: .12em; }
 
 h1 {
   font-size: 40px;
@@ -132,6 +132,16 @@ a {
 
 a:hover {
   text-decoration: underline; }
+
+a.Article-Link:hover {
+  text-decoration: none; }
+  a.Article-Link:hover h2.post-title {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #5FD8C9;
+    text-decoration: underline; }
 
 .post-content {
   line-height: 1.5;
@@ -392,7 +402,7 @@ nav {
   .pagination span {
     display: none; } }
 /*============================================================
-10   Accessability
+10   Accessibility
 ============================================================*/
 .visually-hidden {
   position: absolute !important;
